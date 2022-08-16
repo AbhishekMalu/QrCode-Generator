@@ -15,11 +15,16 @@ st.markdown("""
             <p style="text-align:center;font-weight:bold;font-size:280%; text-shadow: 1px 2px #FF0000">QR Code Generator</p>
             """,unsafe_allow_html=True)
 st.markdown("""
+            <br>
+            """,unsafe_allow_html=True)
+st.markdown("""
                 <div style="display:flex;justify-content:center;">
                     <img src="https://golangexample.com/content/images/2019/01/demo.gif" width=100%/>
                 </div>
             """,unsafe_allow_html=True)
-
+st.markdown("""
+            <br>
+            <br>""",unsafe_allow_html=True)
 link = st.text_input("Enter the link:- ")
 qr = qrcode.QRCode(
     version=1,

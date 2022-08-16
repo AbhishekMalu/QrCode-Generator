@@ -16,7 +16,7 @@ st.markdown("""
             """,unsafe_allow_html=True)
 st.markdown("""
                 <div style="display:flex;justify-content:center;">
-                    <img src="https://golangexample.com/content/images/2019/01/demo.gif"/>
+                    <img src="https://golangexample.com/content/images/2019/01/demo.gif" width=100%/>
                 </div>
             """,unsafe_allow_html=True)
 

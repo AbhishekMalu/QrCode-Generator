@@ -31,5 +31,9 @@ if st.button("Generate QRcode"):
         with center:
                 time.sleep(3)
                 img.save("QrCode.png")
-                image = st.image("QrCode.png")
-                
+                st.image("QrCode.png")
+                time.sleep(3)
+                st.download_button(label='Download the QrCode',
+                        data= open('QrCode.png', 'rb').read(),
+                        file_name='imagename.png',
+                        mime='image/png')

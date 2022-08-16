@@ -16,9 +16,7 @@ st.markdown("""
             """,unsafe_allow_html=True)
 st.markdown("""
                 <div style="display:flex;justify-content:center;">
-                    <img src="https://smashrxllc.com/wp-content/uploads/2021/03/4TbK6z8jc.gif" width="45" height="45"/>
-                    <img src="https://smashrxllc.com/wp-content/uploads/2021/03/4TbK6z8jc.gif" width="45" height="45"/>
-                    <img src="https://smashrxllc.com/wp-content/uploads/2021/03/4TbK6z8jc.gif" width="45" height="45"/>
+                    <img src="https://golangexample.com/content/images/2019/01/demo.gif"/>
                 </div>
             """,unsafe_allow_html=True)
 

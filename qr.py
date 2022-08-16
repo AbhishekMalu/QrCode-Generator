@@ -3,6 +3,14 @@ import streamlit as st
 import time
 
 st.set_page_config(layout="wide")
+
+st.markdown("""
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """,unsafe_allow_html=True)
+
 st.markdown("""
             <p style="text-align:center;font-weight:bold;font-size:280%; text-shadow: 1px 2px #FF0000">QR Code Generator</p>
             """,unsafe_allow_html=True)
